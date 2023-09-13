@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.wrapper{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+.wrapper .title{
+    font-family: GilroyHome;
+    position: relative;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #464754;
+    margin-bottom: 30px;
+}
+.wrapper form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    color: #807373;
+}
+.wrapper-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+.card{
+    font-family: GilroyHome;
+    background: #FFFFFF;
+    border-radius: 10px;
+    min-height: 350px;
+}
+.card-header-btn{
+    width: 50%;
+    float: left;
+}
+.card-header-btn button{
+    font-family: GilroyHome;
+    background: #00783F;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    padding: 7px;
+}
+.card-header-status{
+    font-family: GilroyHome;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #464754;
+}
+.card-body{
+    padding: 20px;
+}
+.progress-txt{
+    font-family: GilroyHome;
+    width: 50%;
+    float: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;letter-spacing: 0.02em;
+    color: #807373;
+}
+.card2 .card-header-status, .card-header-status{
+    font-family: GilroyHome;
+    color: #807373;
+}
+.progress-count{
+    font-family: GilroyHome;
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #00783F;
+}
+.card-list{
+    margin-top: 30px;
+}
+.card-list .list-item{
+    padding: 10px 0px;
+}
+.card-list .list-item label{
+    font-family: GilroyHome;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #A69F9F;
+
+}
+.card-list .list-item label.checked{
+    color: #464754;
+}
+
+.card1 .card .card-header{
+    background: rgba(0, 120, 63, 0.08);
+    border-bottom: 0.5px solid #D7D9DD;
+    padding: 20px 20px 30px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card2 .card .card-header{
+    background: rgba(166, 159, 159, 0.14);
+    border-bottom: 0.5px solid #D7D9DD;
+    padding: 20px 20px 30px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card3 .card .card-header{
+    background: rgba(166, 159, 159, 0.14);
+    border-bottom: 0.5px solid #D7D9DD;
+    padding: 20px 20px 30px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.card3{
+    grid-column: 1/3;
+    justify-items: start;
+    align-items: center;
+}
+.card3 .card{
+    width: 400px;
+    margin: auto;
+}
+.mt40{
+    margin-top: 40px;
+}
+
+/* ================ check box design ==================  */
+.labelContainer {
+    font-family: GilroyHome;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* Hide the browser's default checkbox */
+.labelContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    }
+
+    /* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+}
+
+    /* On mouse-over, add a grey background color */
+.labelContainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.labelContainer input:checked ~ .checkmark {
+    background-color: #00783F;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    }
+
+    /* Show the checkmark when checked */
+.labelContainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+    /* Style the checkmark/indicator */
+.labelContainer .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.list-item img{
+    position: relative;
+    top: 4px;
+}
+.list-item .labelContainer{
+    padding: 0px 10px;
+}
+/* Media Query */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .wrapper{
+        max-width: 100%;
+    }
+    .card{
+        margin-bottom: 2em;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .wrapper{
+        max-width: 100%;
+    }
+    .card{
+        margin-bottom: 2em;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .wrapper{
+        max-width: 100%;
+    }
+    .card{
+        margin-bottom: 2em;
+    }
+    .card3 .card{
+        width: 100%;
+    }
+    .wrapper-content {
+        grid-template-columns: 100%;
+        grid-gap: 0em;
+    }
+    .card3{
+        grid-column: 1;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .wrapper{
+        max-width: 100%;
+    }
+    .card{
+        margin-bottom: 2em;
+    }
+    .card3 .card{
+        width: 100%;
+    }
+    .wrapper-content {
+        grid-template-columns: 100%;
+        grid-gap: 0em;
+    }
+    .card3{
+        grid-column: 1;
+    }
+}

@@ -1,0 +1,50 @@
+.partners{
+    font-family: GilroyHome;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5em;
+    width: 1200px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.partner-item{
+    padding: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .partners{
+        width: 100%;
+    }
+    .partner-item{
+        padding: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .partners{
+        width: 100%;
+    }
+    .partner-item{
+        padding: 20px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .partners{
+        width: 100%;
+    }
+    .partner-item{
+        padding: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .partners{
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 0em;
+        align-content: center;
+        width: 100%;
+    }
+    .partner-item{
+        padding: 20px;
+    }
+}

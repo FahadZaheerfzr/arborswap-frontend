@@ -1,0 +1,22 @@
+.horizontalSlider___281Ls.carousel__slider.carousel__slider--horizontal.Slider {
+    margin: auto;
+    height: auto;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .horizontalSlider___281Ls.carousel__slider.carousel__slider--horizontal.Slider {
+        margin: 20px;
+        height: 450px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .horizontalSlider___281Ls.carousel__slider.carousel__slider--horizontal.Slider {
+        margin: 20px;
+        height: 450px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .horizontalSlider___281Ls.carousel__slider.carousel__slider--horizontal.Slider {
+        margin: 20px;
+        height: 250px;
+    }
+}

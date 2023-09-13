@@ -1,0 +1,62 @@
+{
+  "name": "ArborSwap Default List",
+  "timestamp": "2021-05-06T00:00:00Z",
+  "version": {
+    "major": 3,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://www.arborswap.org/logo.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://rba.arborswap.org/images/tokens/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://rba.arborswap.org/images/tokens/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+    },
+    {
+      "name": "USDT Token",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://rba.arborswap.org/images/tokens/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "name": "USDC Token",
+      "symbol": "USDC",
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://rba.arborswap.org/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png"
+    },
+    {
+      "name": "Roburna Token",
+      "symbol": "RBA",
+      "address": "0xDD534480782eCf53e4A5257B0f3C37702A0bAD61",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://rba.arborswap.org/images/tokens/0xDD534480782eCf53e4A5257B0f3C37702A0bAD61.png"
+    },
+    {
+      "name": "Fight4Hope",
+      "symbol": "F4H",
+      "address": "0xa5F8128d04692656a60f17B349C2146c48e6863a",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://rba.arborswap.org/images/tokens/0xa5F8128d04692656a60f17B349C2146c48e6863a.png"
+    }
+  ]
+}

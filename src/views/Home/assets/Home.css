@@ -1,0 +1,214 @@
+@font-face {
+    font-family: GilroyHome;
+    src: url('../assets/fonts/Gilroy-Font/Gilroy-Medium.woff2');
+  }
+  
+  @font-face {
+    font-family: GilroyHomeBold;
+    src: url('../assets/fonts/Gilroy-Font/Gilroy-Bold.woff2');
+  }
+
+.imgClose{
+    width: 50px;
+}
+
+.banner-links{
+    font-family: GilroyHome;
+    background-image: url('../assets/banner-links-bg.png');
+    background-size: 100% 100%;
+    padding-bottom: 100px;
+    width: 751px;
+    margin: 0px auto;
+    position: relative;
+    top: 219px;
+    left: -12px;
+    height: 212px;
+}
+.link-buttons a{
+    background: #C89C34;
+    box-shadow: 0px 4px 4px rgba(200, 156, 52, 0.2);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.link-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2em;
+}
+.lb1 {
+    font-family: GilroyHome;
+    position: relative;
+    left: -5px;
+    top: 83px;
+}
+.lb2 {
+    font-family: GilroyHome;
+    position: relative;
+    top: 82px;
+    right: -250px;
+}
+.lb3 {
+    font-family: GilroyHome;
+    position: relative;
+    top: 184px;
+    left: -78px;
+}
+.lb4 {
+    font-family: GilroyHome;
+    position: relative;
+    top: 185px;
+    right: -357px;
+    max-width: 100px;
+}
+.lb1 a, .lb2 a, .lb3 a, .lb4 a{
+    font-family: GilroyHome;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner-links{
+        width: 100%;
+        top: 220px;
+        height: 191px;
+    }
+    .lb1{
+        left: 40px;
+        top: 75px;
+    }
+    .lb2 {
+        position: relative;
+        top: 75px;
+        right: -270px;
+        max-width: 88px;
+    }
+    .lb3 {
+        position: relative;
+        top: 164px;
+        left: 23px;
+    }
+    .lb4 {
+        position: relative;
+        top: 164px;
+        right: -280px;
+        max-width: 88px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .banner-links{
+        width: 100%;
+        top: 220px;
+        height: 191px;
+    }
+    .lb1{
+        left: 40px;
+        top: 75px;
+    }
+    .lb2 {
+        position: relative;
+        top: 75px;
+        right: -270px;
+        max-width: 88px;
+    }
+    .lb3 {
+        position: relative;
+        top: 164px;
+        left: 23px;
+    }
+    .lb4 {
+        position: relative;
+        top: 164px;
+        right: -280px;
+        max-width: 88px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .banner-links{
+        width: 100%;
+        top: 330px;
+        height: 149px;
+    }
+    .lb1{
+        left: 40px;
+        top: 56px;
+    }
+    .lb2 {
+        position: relative;
+        top: 56px;
+        right: -120px;
+        max-width: 88px;
+    }
+    .lb3 {
+        position: relative;
+        top: 124px;
+        left: 23px;
+    }
+    .lb4 {
+        position: relative;
+        top: 122px;
+        right: -150px;
+        max-width: 88px;
+    }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+    .banner-links{
+        width: 100%;
+        top: 230px;
+        height: 149px;
+    }
+    .lb1{
+        left: 40px;
+        top: 56px;
+    }
+    .lb2 {
+        position: relative;
+        top: 56px;
+        right: -93px;
+        max-width: 88px;
+    }
+    .lb3 {
+        position: relative;
+        top: 124px;
+        left: 23px;
+    }
+    .lb4 {
+        position: relative;
+        top: 122px;
+        right: -102px;
+        max-width: 88px;
+    }
+}
+@media (min-width: 320px) and (max-width: 380px) {
+    .banner-links{
+        position: relative;
+        width: 320px;
+        top: 230px;
+        height: 149px;
+    }
+    .link-buttons{
+        position: absolute;
+    }
+    .lb1{
+        left: 10px;
+        top: 56px;
+    }
+    .lb2 {
+        position: relative;
+        top: 56px;
+        right: -123px;
+        max-width: 88px;
+    }
+    .lb3 {
+        position: relative;
+        top: 124px;
+        left: 0px;
+    }
+    .lb4 {
+        position: relative;
+        top: 122px;
+        right: -150px;
+        max-width: 88px;
+    }
+}

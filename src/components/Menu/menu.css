@@ -1,0 +1,8 @@
+.airdropper svg:first-child{
+    width: 28.8px !important;
+    height: 28.8px !important;
+    margin-right: 3px;
+}
+.tradeIcon svg:first-child{
+    margin-right: 6px;
+}

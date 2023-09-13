@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.wrapper{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.wrapper .title{
+    font-family: GilroyHome;
+    position: relative;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #464754;
+    margin-bottom: 30px;
+}
+.wrapper form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    color: #807373;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+form .user-details .input-box-full{
+    margin-bottom: 15px;
+    width: calc(100%);
+}
+.user-details .input-box input, .user-details .input-box-full input{
+    height: 45px;
+    width: 100%;
+}
+.user-details .input-box .details, .user-details .input-box-full .details{
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+}
+.user-details .input-box input{
+    font-family: GilroyHome;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all .3s ease;
+    border: 1.5px solid rgba(166, 159, 159, 0.4);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.user-details .input-box-full textarea{
+    width: 100%;
+    min-height: 60px;
+    border: 1.5px solid rgba(166, 159, 159, 0.4);
+    border-radius: 8px;
+}
+.user-details .input-box-full textarea:hover, .user-details .input-box-full textarea:focus, .user-details .input-box-full textarea:focus-visible{
+    border: 1.5px solid rgba(166, 159, 159, 0.4);
+    outline: none;
+}
+.user-details .input-box-full input{
+    font-family: GilroyHome;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all .3s ease;
+    border: 1.5px solid rgba(166, 159, 159, 0.4);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.gender-details .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+.gender-details .category label{
+    font-family: GilroyHome;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #807373;
+    padding-bottom: 15px;
+}
+form .button{
+    margin-top: 40px;
+}
+form .button input{
+    font-family: GilroyHome;
+    width: 250px;
+    margin: 0px auto;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    background: #00783F;
+    border: 3px solid rgba(166, 159, 159, 0.2);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+.mt40{
+    margin-top: 40px;
+}
+.form-error{
+    color: #e70000;;
+}
+.submitDisable{
+    background-color: #aaa;
+}
+.submitActive{
+    background-color: #00783F;
+}
+
+.alert-error{
+    background-color: #c002022e;
+    color: #c00202;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.alert-success{
+    background-color: #00784037;
+    color: #00783F;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Media Query */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .wrapper{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .gender-details .category{
+        width: 100%;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .wrapper{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .gender-details .category{
+        width: 100%;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .wrapper{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .gender-details .category{
+        width: 100%;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .wrapper{
+        max-width: 100%;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .gender-details .category{
+        width: 100%;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0;
+    }
+}
